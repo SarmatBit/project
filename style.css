@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+
+.navigate{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20vh;
+    gap: 20px;
+    
+
+}
+
+
+.block{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    margin-left: 5vh;
+
+}
+    
+.kan__park{
+   margin-right: 10px;
+}
+
+.block__inner{
+    
+}
+.poisk{
+    display: flex;
+    align-items: center; 
+    width: 500px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #D4D4D4;
+    text-align: left;
+}
+.search__inner{
+    display: flex;
+    align-items: center;
+}
+.search{
+    color: #00000066;
+    padding-left: 20px;
+}
+
+.con{
+    margin-left: 31vh;
+}
+
+.reed{
+    
+    width: 50px;
+    height: 43px;
+    
+}
+
+.recta{
+    width: 50px;
+    height: 45px;
+    padding-bottom: 2px;
+    margin-left: 12vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.sear{
+    width: 45px;
+    padding:10px 10px;
+    position: absolute;
+    margin-left: 12vh;
+    z-index: 2;
+   
+}
+.knop{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    background-color: #D4D4D4;
+    border-radius: 5px;
+    border: none;
+    gap: 10px;
+}
+
+.cerd{
+    padding-left: 3px;
+}
+
+
+
+.srav{
+    display: flex;  
+    gap: 8px;
+    margin-left: 10vh;
+}
+
+
+.massa{
+    width: 30px;
+}
+.sravnenie{
+    font-size: 20px;
+}
+
+.kor{
+    display: flex;
+    align-items: center;
+    margin-left: 8vh;
+}
+
+.mysor{
+    width: 30px;
+}
+
+.sahol{
+    font-size: 20px;
+}
+
+
+.container__inner {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    
+ 
+}
+#red{
+    width: 220px;
+    background-color: #E0001B;
+    color: white;
+    font-size: 15px;
+    border: none ;
+    
+}
+.btn {
+    width: 350px;
+    height: 50px;
+    background-color: #D4D4D4;
+    border: none;
+    
+}
+
+.btn__grow{
+    width: 350px;
+    height: 50px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+.btn__fron{
+    width: 350px;
+    height: 50px;
+    border: none;
+    background-color: rgb(217, 221, 224);
+}
+.btn_inner{
+   width: 40vh;
+   height: 50px;
+   border: none;
+   color: red;
+}
